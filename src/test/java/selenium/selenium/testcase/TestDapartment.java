@@ -7,10 +7,11 @@ import org.openqa.selenium.WebDriver;
 import selenium.selenium.framework.Login;
 import selenium.selenium.page.App;
 
-public class TestGroupMessage {
+public class TestDapartment {
 
     public static Login login=new Login();
     public static App app;
+    private static String departmentName="研发部门2";
 
     @BeforeClass
     public static void beforeAll(){
@@ -18,12 +19,13 @@ public class TestGroupMessage {
     }
 
     @Test
-    public void send(){
-        app.toGroupMessage().send("176","2","3","4","5");
+    public void testAdd(){
+        app.toContact().addDepartmant(departmentName);
     }
 
     @AfterClass
     public static void afterAll() throws InterruptedException {
+        app.toContact().deleteDepartment(departmentName);
         app.quit();
     }
 }

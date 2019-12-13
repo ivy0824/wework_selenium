@@ -11,12 +11,15 @@ public class BroadcastPage extends BasePage {
         findElement(By.linkText("选择需要发消息的应用")).click();
         findElement(By.cssSelector(".ww_icon_AppNotice")).click();
         findElement(By.linkText("确定")).click();
-        findElement(By.linkText("选择发送范围")).click();
+        waitClickable(By.linkText("选择发送范围")).click();
         //坑1：js执行时间超长，使用page load策略改进
         findElement(By.id("memberSearchInput")).sendKeys(range);
         findElement(By.cssSelector(".ww_searchResult_title_peopleName")).click();
         findElement(By.linkText("确认")).click();
+
+        //输入消息主题
         findElement(By.cssSelector(".ww_editorTitle")).sendKeys(title);
+
         //坑2：frame切换
         System.out.println(driver.getWindowHandles());
         driver.switchTo().frame(0);
@@ -27,8 +30,12 @@ public class BroadcastPage extends BasePage {
         ((JavascriptExecutor) (driver)).executeScript("window.scroll(0, 1200)");
         findElement(By.cssSelector(".msg_edit_infoItem_textWord")).click();
         //依赖于上面的一次点击才能出现
+
+        //输入摘要信息
         findElement(By.cssSelector(".qui_textarea")).sendKeys(summary);
-        findElement(By.cssSelector(".js_amrd_sendName")).sendKeys(author);
+        //输入作者信息
+        waitClickable(By.cssSelector(".js_amrd_sendName")).sendKeys(author);
+
         driver.findElements(By.linkText("发送")).forEach(element -> {
             System.out.println(element);
             System.out.println(element.getLocation());
