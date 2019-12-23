@@ -3,10 +3,12 @@ package selenium.selenium.page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import javax.swing.*;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -16,14 +18,27 @@ public class BasePage {
     public WebElement findElement(By by){
         return driver.findElement(by);
     }
-    protected void click(WebElement element){
+    public void click(WebElement element){
         try {
             if(element.isEnabled()){
                 element.click();
+                driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
                 System.out.println("Element is clicked "+ element);
             }
         }catch (Exception e){
-            System.out.println("2");
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public void doubleClick(WebElement element){
+        try {
+            if(element.isEnabled()){
+                Actions actions=new Actions(driver);
+                actions.doubleClick(element);
+                driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
+                System.out.println("Element is clicked "+ element);
+            }
+        }catch (Exception e){
             System.out.println(e.getMessage());
         }
     }

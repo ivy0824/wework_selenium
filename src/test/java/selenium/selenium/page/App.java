@@ -1,12 +1,7 @@
 package selenium.selenium.page;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -18,7 +13,6 @@ public class App extends BasePage{
     private String wwrtx_sid="3xJ8ihtvb-ytUa9X_-5TLPJoorDuFt5sJulyVElvHhjkOCb6IWmOsbMBgqLVA6JV";
 
     @FindBy(linkText = "通讯录")
-    @CacheLookup
     WebElement addressList;
 
     @FindBy(linkText = "添加成员")

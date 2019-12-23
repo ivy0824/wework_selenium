@@ -2,8 +2,7 @@ package selenium.selenium.testcase;
 
 import org.junit.AfterClass;
 import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-import selenium.selenium.framework.Login;
+import selenium.selenium.page.Login;
 
 public class TestLogin {
 

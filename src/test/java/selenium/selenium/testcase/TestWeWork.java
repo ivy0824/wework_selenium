@@ -3,7 +3,7 @@ package selenium.selenium.testcase;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import selenium.selenium.framework.Login;
+import selenium.selenium.page.Login;
 import selenium.selenium.page.App;
 
 public class TestWeWork {
