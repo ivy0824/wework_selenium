@@ -30,6 +30,18 @@ public class BasePage {
         }
     }
 
+    public String display(WebElement element){
+        try {
+            if (element.isDisplayed()) {
+                System.out.println("Element is displayed "+ element);
+            }
+        }catch(Exception e){
+            System.out.println("Test Fail"+e.getMessage());
+        }
+        System.out.println(element.getText());
+        return element.getText();
+    }
+
     public void doubleClick(WebElement element){
         try {
             if(element.isEnabled()){
@@ -50,6 +62,7 @@ public class BasePage {
     protected void sendKeys(WebElement element,String text){
         try{
             if(element.isDisplayed()){
+                element.clear();
                 element.sendKeys(text);
             }
         }catch (Exception e)

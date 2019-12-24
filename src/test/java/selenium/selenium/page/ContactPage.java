@@ -3,6 +3,7 @@ package selenium.selenium.page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
@@ -11,6 +12,9 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class ContactPage extends BasePage {
+
+    @FindBy(linkText = "添加成员")
+    WebElement addMemberButton;
 
     @FindBy(id = "username")
     WebElement usernameValue;
@@ -27,10 +31,17 @@ public class ContactPage extends BasePage {
     @FindBy(id = "memberSearchInput")
     WebElement searchTextValue;
 
+    @FindBys({
+            @FindBy(css = ".ww_dialog_body"),
+            @FindBy(id = "memberSearchInput")})
+    WebElement dialogSearchTextValue;
+
     @FindBy(linkText = "删除")
     WebElement delete;
 
-    @FindBy(linkText = "确定")
+    @FindAll({
+            @FindBy(linkText = "确定"),
+            @FindBy(linkText = "确认")})
     WebElement confirm;
 
     @FindBy(css = ".ww_checkbox")
@@ -52,12 +63,26 @@ public class ContactPage extends BasePage {
             @FindBy(css = ".jstree-ocl")})
     WebElement folderClick;
 
+    @FindBy(css = ".member_colRight_memberTable_th_Checkbox")
+    WebElement checkAll;
+
+    @FindBy(linkText = "设置所在部门")
+    WebElement setDepartmentButton;
+
+    @FindBy(css = ".ww_searchResult_item_Curr")
+    WebElement currentDepartment;
+
+    @FindBy(css = ".ww_searchResult_title_peopleName")
+    WebElement searchPeople;
+
+
     //构造函数
     public ContactPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
     //添加成员
     public ContactPage add(String username, String acctId, String phone){
+        click(addMemberButton);
         sendKeys(usernameValue,username);
         sendKeys(acctIdValue,acctId);
         sendKeys(phoneValue,phone);
@@ -134,7 +159,28 @@ public class ContactPage extends BasePage {
         return this;
     }
 
-    public HashMap<String, String> getUserInfo(String keyword){
+    //设置所有用户到一个部门
+    public ContactPage setdepartmant(String departmentName){
+        click(checkAll);
+        click(setDepartmentButton);
+        sendKeys(dialogSearchTextValue,departmentName);
+        click(currentDepartment);
+        click(confirm);
+        return this;
+    }
+
+    //判断用户是否存在
+    public void getUsername(String name){
+        sendKeys(searchTextValue,name);
+        if(display(searchPeople).equals(name)){
+            System.out.println("find name" +name+ "Test Pass");
+        }
+        else {
+            System.out.println("not find name" +name+ "Test Failed");
+        }
+    }
+
+    public HashMap<String, String> getUserName1(String keyword){
         //todo:
         return new HashMap<>();
     }

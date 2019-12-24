@@ -6,11 +6,11 @@ import org.junit.Test;
 import selenium.selenium.page.Login;
 import selenium.selenium.page.App;
 
-public class TestWeWork {
+public class TestAddPerson {
 
     public static Login login=new Login();
     public static App app;
-    static String phone="12300000011";
+    static String phone="12300000013";
 
 
     @BeforeClass
@@ -21,6 +21,7 @@ public class TestWeWork {
     @Test
     public void testAdd(){
         app.toMemberAdd().add(phone,phone,phone);
+        app.toMemberAdd().getUsername(phone);
     }
 
     @Test

@@ -33,10 +33,17 @@ public class TestDapartment {
                 .addDepartmant(departmentName,secondDepartmentName);
     }
 
+    @Test
+    //设置所有用户到一个部门
+    public void testSetDepartment(){
+        app.toContact().addDepartmant(enterprise,departmentName);
+        app.toContact().setdepartmant(departmentName);
+    }
+
     @AfterClass
     public static void afterAll() throws InterruptedException {
-        app.toContact().deleteDepartment2(departmentName,secondDepartmentName);
-        app.toContact().deleteDepartment(departmentName);
+//        app.toContact().deleteDepartment2(departmentName,secondDepartmentName);
+//        app.toContact().deleteDepartment(departmentName);
         app.quit();
     }
 }

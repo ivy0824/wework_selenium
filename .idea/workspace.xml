@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9298d7d-8893-4506-8818-e86309f19a71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/selenium/page/SendNoticePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestSendNotice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/selenium/framework/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/selenium/page/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/selenium/page/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/selenium/page/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/selenium/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/selenium/page/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/selenium/page/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/selenium/page/ContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/selenium/page/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/selenium/page/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestDapartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestDapartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestGroupMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestGroupMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestWeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestWeWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/selenium/framework/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestWeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestAddPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/selenium/page/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/selenium/page/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/selenium/page/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/selenium/page/ContactPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/selenium/page/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/selenium/page/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/selenium/testcase/TestDapartment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/selenium/testcase/TestDapartment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/selenium/testcase/TestWeWork.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,14 +57,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="48" />
-          <entry key="JAVA" value="97" />
+          <entry key="CLASS" value="50" />
+          <entry key="JAVA" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4835" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JAVA" value="6405" />
+          <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -70,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/page/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="30">
+              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#544#545#0" expanded="true" />
@@ -81,32 +85,44 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/page/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/page/ContactPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="309">
+              <caret line="172" column="41" lean-forward="true" selection-start-line="172" selection-start-column="41" selection-end-line="172" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1355#1356#0" expanded="true" />
                 <element signature="method#add#0;class#ContactPage#0" />
                 <element signature="method#delete#0;class#ContactPage#0" />
                 <element signature="method#delectCurrentPage#0;class#ContactPage#0" />
                 <element signature="method#importFromFile#0;class#ContactPage#0" />
                 <element signature="method#addDepartmant#0;class#ContactPage#0" />
                 <element signature="method#deleteDepartment#0;class#ContactPage#0" />
-                <element signature="method#getUserInfo#0;class#ContactPage#0" />
+                <element signature="method#deleteDepartment2#0;class#ContactPage#0" />
+                <element signature="method#setdepartmant#0;class#ContactPage#0" />
+                <element signature="method#getUserName1#0;class#ContactPage#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestDapartment.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestAddPerson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="371">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,9 +176,13 @@
         <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/framework/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestWeWork.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestGroupMessage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/page/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/page/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestDapartment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/page/SendNotice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestSendNotice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/page/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/page/SendNoticePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/page/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestAddPerson.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/page/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/selenium/page/ContactPage.java" />
       </list>
@@ -271,7 +291,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577086730421" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577177944221" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -288,7 +308,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDapartment">
+  <component name="RunManager" selected="JUnit.TestAddPerson.testAdd">
+    <configuration name="TestAddPerson.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumPO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.selenium.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.selenium.testcase" />
+      <option name="MAIN_CLASS_NAME" value="selenium.selenium.testcase.TestAddPerson" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestDapartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumPO" />
       <extension name="coverage">
@@ -303,7 +339,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDapartment.afterAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDapartment.testSetDepartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumPO" />
       <extension name="coverage">
         <pattern>
@@ -313,13 +349,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="selenium.selenium.testcase" />
       <option name="MAIN_CLASS_NAME" value="selenium.selenium.testcase.TestDapartment" />
-      <option name="METHOD_NAME" value="afterAll" />
+      <option name="METHOD_NAME" value="testSetDepartment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDapartment.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSendNotice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumPO" />
       <extension name="coverage">
         <pattern>
@@ -328,14 +364,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="selenium.selenium.testcase" />
-      <option name="MAIN_CLASS_NAME" value="selenium.selenium.testcase.TestDapartment" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="selenium.selenium.testcase.TestSendNotice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSendNotice.testSendNotice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumPO" />
       <extension name="coverage">
         <pattern>
@@ -344,41 +378,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="selenium.selenium.testcase" />
-      <option name="MAIN_CLASS_NAME" value="selenium.selenium.testcase.TestLogin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLogin.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seleniumPO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.selenium.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.selenium.testcase" />
-      <option name="MAIN_CLASS_NAME" value="selenium.selenium.testcase.TestLogin" />
-      <option name="METHOD_NAME" value="testLogin" />
+      <option name="MAIN_CLASS_NAME" value="selenium.selenium.testcase.TestSendNotice" />
+      <option name="METHOD_NAME" value="testSendNotice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestDapartment.testAdd" />
       <item itemvalue="JUnit.TestDapartment" />
-      <item itemvalue="JUnit.TestLogin" />
-      <item itemvalue="JUnit.TestLogin.testLogin" />
-      <item itemvalue="JUnit.TestDapartment.afterAll" />
+      <item itemvalue="JUnit.TestDapartment.testSetDepartment" />
+      <item itemvalue="JUnit.TestSendNotice.testSendNotice" />
+      <item itemvalue="JUnit.TestSendNotice" />
+      <item itemvalue="JUnit.TestAddPerson.testAdd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAddPerson.testAdd" />
+        <item itemvalue="JUnit.TestSendNotice.testSendNotice" />
+        <item itemvalue="JUnit.TestSendNotice" />
+        <item itemvalue="JUnit.TestDapartment.testSetDepartment" />
         <item itemvalue="JUnit.TestDapartment" />
-        <item itemvalue="JUnit.TestDapartment.afterAll" />
-        <item itemvalue="JUnit.TestDapartment.testAdd" />
-        <item itemvalue="JUnit.TestLogin.testLogin" />
-        <item itemvalue="JUnit.TestLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -397,44 +417,44 @@
       <workItem from="1574753952117" duration="7394000" />
       <workItem from="1575081332160" duration="21504000" />
       <workItem from="1575625557167" duration="114000" />
-      <workItem from="1576204606288" duration="28059000" />
+      <workItem from="1576204606288" duration="41097000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDapartment_afterAll - 2019.12.23 at 12h 00m 28s.xml">
-      <configuration name="TestDapartment.afterAll" configurationId="JUnit" />
+    <history-entry file="TestSendNotice_testSendNotice - 2019.12.24 at 14h 53m 13s.xml">
+      <configuration name="TestSendNotice.testSendNotice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDapartment_afterAll - 2019.12.23 at 12h 05m 56s.xml">
-      <configuration name="TestDapartment.afterAll" configurationId="JUnit" />
+    <history-entry file="TestSendNotice_testSendNotice - 2019.12.24 at 14h 54m 33s.xml">
+      <configuration name="TestSendNotice.testSendNotice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDapartment_afterAll - 2019.12.23 at 12h 07m 58s.xml">
-      <configuration name="TestDapartment.afterAll" configurationId="JUnit" />
+    <history-entry file="TestSendNotice_testSendNotice - 2019.12.24 at 14h 54m 36s.xml">
+      <configuration name="TestSendNotice.testSendNotice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDapartment_afterAll - 2019.12.23 at 12h 11m 41s.xml">
-      <configuration name="TestDapartment.afterAll" configurationId="JUnit" />
+    <history-entry file="TestSendNotice_testSendNotice - 2019.12.24 at 14h 55m 19s.xml">
+      <configuration name="TestSendNotice.testSendNotice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDapartment_afterAll - 2019.12.23 at 12h 13m 41s.xml">
-      <configuration name="TestDapartment.afterAll" configurationId="JUnit" />
+    <history-entry file="TestSendNotice_testSendNotice - 2019.12.24 at 14h 55m 20s.xml">
+      <configuration name="TestSendNotice.testSendNotice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDapartment_afterAll - 2019.12.23 at 12h 16m 11s.xml">
-      <configuration name="TestDapartment.afterAll" configurationId="JUnit" />
+    <history-entry file="TestSendNotice_testSendNotice - 2019.12.24 at 14h 57m 16s.xml">
+      <configuration name="TestSendNotice.testSendNotice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDapartment_afterAll - 2019.12.23 at 12h 18m 01s.xml">
-      <configuration name="TestDapartment.afterAll" configurationId="JUnit" />
+    <history-entry file="TestAddPerson_testAdd - 2019.12.24 at 16h 02m 49s.xml">
+      <configuration name="TestAddPerson.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDapartment_afterAll - 2019.12.23 at 13h 31m 30s.xml">
-      <configuration name="TestDapartment.afterAll" configurationId="JUnit" />
+    <history-entry file="TestAddPerson_testAdd - 2019.12.24 at 16h 05m 49s.xml">
+      <configuration name="TestAddPerson.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDapartment_afterAll - 2019.12.23 at 13h 32m 47s.xml">
-      <configuration name="TestDapartment.afterAll" configurationId="JUnit" />
+    <history-entry file="TestAddPerson_testAdd - 2019.12.24 at 16h 12m 25s.xml">
+      <configuration name="TestAddPerson.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDapartment_afterAll - 2019.12.23 at 13h 55m 24s.xml">
-      <configuration name="TestDapartment.afterAll" configurationId="JUnit" />
+    <history-entry file="TestAddPerson_testAdd - 2019.12.24 at 16h 15m 14s.xml">
+      <configuration name="TestAddPerson.testAdd" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82161000" />
+    <option name="totallyTimeSpent" value="95199000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -458,14 +478,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27831325" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28915662" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.0939759" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2819277" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
       <window_info anchor="bottom" id="Spring" order="12" />
@@ -485,6 +505,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/selenium/page/ContactPage.java</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -609,33 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar!/org/openqa/selenium/support/FindBy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/DefaultSuiteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/page/BroadcastPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -647,42 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="27" column="77" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestGroupMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestWeWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,10 +683,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/page/Login.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/Actions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1041">
+          <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/Alert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar!/org/openqa/selenium/support/FindBy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestDapartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testAdd#0;class#TestDapartment#0" />
+            <element signature="method#testAdd2#0;class#TestDapartment#0" />
+            <element signature="method#testSetDepartment#0;class#TestDapartment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/page/SendNoticePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/page/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestSendNotice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/page/BroadcastPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="44" column="53" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/DefaultSuiteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestGroupMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -726,25 +789,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/page/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="211">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/Actions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1041">
-          <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/page/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="30">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />
@@ -753,10 +809,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestDapartment.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/testcase/TestAddPerson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="371">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -765,19 +821,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/selenium/page/ContactPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="309">
+          <caret line="172" column="41" lean-forward="true" selection-start-line="172" selection-start-column="41" selection-end-line="172" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
             <element signature="method#add#0;class#ContactPage#0" />
             <element signature="method#delete#0;class#ContactPage#0" />
             <element signature="method#delectCurrentPage#0;class#ContactPage#0" />
             <element signature="method#importFromFile#0;class#ContactPage#0" />
             <element signature="method#addDepartmant#0;class#ContactPage#0" />
             <element signature="method#deleteDepartment#0;class#ContactPage#0" />
-            <element signature="method#getUserInfo#0;class#ContactPage#0" />
+            <element signature="method#deleteDepartment2#0;class#ContactPage#0" />
+            <element signature="method#setdepartmant#0;class#ContactPage#0" />
+            <element signature="method#getUserName1#0;class#ContactPage#0" />
           </folding>
         </state>
       </provider>
