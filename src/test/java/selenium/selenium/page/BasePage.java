@@ -1,6 +1,7 @@
 package selenium.selenium.page;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -9,6 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import javax.swing.*;
+import java.security.Key;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -18,6 +21,11 @@ public class BasePage {
     public WebElement findElement(By by){
         return driver.findElement(by);
     }
+
+    public List<WebElement> findElements(By by){
+        return driver.findElements(by);
+    }
+
     public void click(WebElement element){
         try {
             if(element.isEnabled()){
@@ -59,11 +67,35 @@ public class BasePage {
         return  ExpectedConditions.visibilityOf(element);
     }
 
-    protected void sendKeys(WebElement element,String text){
+    public void sendKeys(WebElement element,String text){
         try{
             if(element.isDisplayed()){
                 element.clear();
                 element.sendKeys(text);
+            }
+        }catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public void selectCheckbox(WebElement element){
+        try{
+            if(element.isSelected()){
+                element.sendKeys(Keys.SPACE);
+            }
+        }catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public void uncheckCheckbox(WebElement element){
+        try{
+            if(element.isSelected()){
+            }
+            else {
+                element.sendKeys(Keys.SPACE);
             }
         }catch (Exception e)
         {

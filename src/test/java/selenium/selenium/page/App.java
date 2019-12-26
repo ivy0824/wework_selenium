@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import java.util.concurrent.TimeUnit;
 
 public class App extends BasePage{
@@ -22,6 +21,15 @@ public class App extends BasePage{
 
     @FindBy(css=".ww_icon_AppGroupMessageBig")
     WebElement broad;
+
+    @FindBy(linkText = "应用管理")
+    WebElement applicationManagement;
+
+    @FindBy(xpath = "//div[@url='#worknote_v2']")
+    WebElement worknoteButton;
+
+    @FindBy(linkText = "添加模板")
+    WebElement addTemplate;
 
     public App(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -48,6 +56,13 @@ public class App extends BasePage{
         click(managerTool);
         click(broad);
         return new SendNoticePage(driver);
+    }
+
+    public ReportPage toReportMessage(){
+        click(applicationManagement);
+        click(worknoteButton);
+        click(addTemplate);
+        return new ReportPage(driver);
     }
 }
 
