@@ -28,9 +28,6 @@ public class App extends BasePage{
     @FindBy(xpath = "//div[@url='#worknote_v2']")
     WebElement worknoteButton;
 
-    @FindBy(linkText = "添加模板")
-    WebElement addTemplate;
-
     public App(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -61,7 +58,6 @@ public class App extends BasePage{
     public ReportPage toReportMessage(){
         click(applicationManagement);
         click(worknoteButton);
-        click(addTemplate);
         return new ReportPage(driver);
     }
 }

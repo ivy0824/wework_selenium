@@ -8,10 +8,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
-import javax.swing.*;
-import java.security.Key;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -22,6 +18,7 @@ public class BasePage {
         return driver.findElement(by);
     }
 
+    //获取所有定位的element
     public List<WebElement> findElements(By by){
         return driver.findElements(by);
     }
@@ -37,6 +34,33 @@ public class BasePage {
             System.out.println(e.getMessage());
         }
     }
+    //
+    public void click(String string){
+        try {
+            By by=By.cssSelector(string);
+            findElement(by).click();
+            System.out.println("Element is clicked "+ findElement(by));
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
+
+
+    //获取所有定位元素的内容
+    public String[] getTexts(By by){
+        List<WebElement> list=findElements(by);
+        String[] strings=new String[list.size()];
+        try {
+            for(int i=0;i<list.size();i++){
+                strings[i]=list.get(i).getText();
+            }
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        return strings;
+    }
+
+
 
     public String display(WebElement element){
         try {
@@ -72,6 +96,24 @@ public class BasePage {
             if(element.isDisplayed()){
                 element.clear();
                 element.sendKeys(text);
+                System.out.println("Element is input "+ element);
+            }
+        }catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public void sendKeysAndEnter(WebElement element,String text){
+        try{
+            if(element.isDisplayed()){
+                System.out.println("1");
+                element.clear();
+                element.click();
+                System.out.println("2");
+                element.sendKeys(text, Keys.ENTER);
+                System.out.println("3");
+                System.out.println("Element is input "+ element);
             }
         }catch (Exception e)
         {
@@ -103,13 +145,6 @@ public class BasePage {
         }
     }
 
-//    protected List<WebElement> findElements(WebElement element){
-//        try{
-//            if(element.isDisplayed()){
-//                element.
-//            }
-//        }
-//    }
 
     //等待元素可以被点击
     public void waitClickable(By by,int timeout){

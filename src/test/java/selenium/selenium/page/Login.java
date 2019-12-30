@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Login extends BasePage {
 
-    private String wwrtx_sid="3xJ8ihtvb-ytUa9X_-5TLNIMBYogicqzzEOfgFjppLvlWDgoYfQlwR8XCQEOGcNe";
+    private String wwrtx_sid="3xJ8ihtvb-ytUa9X_-5TLKCqs7NK5c4Fns00d-0LnNrPO3IX6tIkhYAvEPof8vZG";
 
     private String url="https://work.weixin.qq.com";
 
